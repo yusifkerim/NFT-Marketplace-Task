@@ -1,0 +1,84 @@
+nav{
+    position: absolute;
+    padding: 10px;
+    position: fixed;
+    width: 100vw;
+    z-index: 7;
+    background: linear-gradient(90deg, rgba(57,62,70,0.5049370089832808) 0%, rgba(57,62,70,1) 100%);
+    animation-name: navbar_animate ;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes navbar_animate {
+   0%   {left:0px; top:-70px;}
+  100%   {left:0px; top:0px;}
+}
+
+
+
+ .menu .logo{
+    width: 150px;
+    height: 40px;
+    margin: 8px 117px auto;
+    cursor: pointer;
+    opacity: none;
+    
+ }
+ nav .menu .menu_items ul{
+     display: flex;
+     justify-content: space-around;
+     gap: 50px;
+     align-items: center;
+     margin: 0px 500px 0px auto;
+     padding: 10px;
+    
+ }
+ 
+ nav .menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+ }
+ nav .menu .menu_items ul li{
+     list-style: none;
+     
+ }
+ nav .menu .menu_items ul li>a{
+    font-family: 'Chakra Petch', sans-serif; 
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+ 
+ }
+ nav .menu .menu_items ul li>a:hover{
+   background: linear-gradient(90deg, rgba(233,145,61,1) 0%, rgba(210,135,62,1) 45%, rgba(156,91,30,1) 100%);
+    border-radius: 3px;
+    width: 10px;
+    height: 10px;
+ }
+ nav .menu .menu_items ul li>a:active{
+   background: linear-gradient(90deg, rgba(233,145,61,1) 0%, rgba(210,135,62,1) 45%, rgba(156,91,30,1) 100%);
+    border-radius: 3px;
+    width: 10px;
+    height: 10px;
+ }
+ nav .button1{
+    position: absolute;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(233,145,61,1) 0%, rgba(210,135,62,1) 45%, rgba(156,91,30,1) 100%);    
+    font-family: 'Montserrat', sans-serif;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;   
+    margin-left: 1220px;
+    margin-top: -50px;                           
+ }
+
+ nav .button1:hover{
+   background: linear-gradient(90deg, rgba(233,145,61,1) 0%, rgba(210,135,62,1) 45%, rgba(156,91,30,1) 100%);
+ }
+ 
